@@ -1,0 +1,23 @@
+h1 {
+    font-family: fantasy, serif;
+    color: crimson;
+    text-align: center;
+    padding: 30px;
+    text-decoration-line: underline;
+}
+
+.MyButton {
+    color:darkblue;
+    background-color: floralwhite;
+    border-top-right-radius: 30px;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.container {
+    background-image: url("http://cdn.wallpapersafari.com/16/27/rCKwoh.jpg");
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
