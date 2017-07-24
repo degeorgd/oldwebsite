@@ -5,19 +5,30 @@
     <meta charset='utf-8'>
     <title>This is just a testsite</title>
     <meta name='description' content="writing my own html">
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+     <script src="main.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    
+    <div id='heading'>
     <h1>Banner Heading</h1>
     <h3>Descriptive Secondary heading</h3>
+    </div>
+    <div id='lightbox'>
+        <h3>This is where my lightbox goes</h3>
+        <ul>
+            <li>
+            <a href="https://verify-demo.sheerid.com/marcola-school-district/content.html?viewName=splash" class='lightbox_trigger'>VerifyButton</a>
+            </li>    
+        </ul>
+    </div>
     <form>
         <input class="MyButton" type="button" value="Click here for Verification" onclick="window.location.href='https://services-sandbox.sheerid.com/verify/596f9a60e4b091f92f4ff992/'" />
     </form>
     
     <img src="https://pisces.bbystatic.com/BestBuy_US/store/ee/2015/com/pm/nav_desktops_1115.jpg;maxHeight=288;maxWidth=520"
-    
     </body>
     
 </html>
