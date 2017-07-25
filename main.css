@@ -47,10 +47,7 @@ lightbox img {
 }
 
 
-.lightbox_trigger {
-   background-image: "http://www.hrd4my.com.my/wp-content/uploads/2016/07/Verify-1.png"
+.a {
+   background: url('http://www.hrd4my.com.my/wp-content/uploads/2016/07/Verify-1.png');
 }
 
-a {
-    
-}

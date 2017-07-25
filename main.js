@@ -1,4 +1,3 @@
-<script>
 jQuery(document).ready(function($) {
 	$('.lightbox_trigger').click(function(e) {
 		e.preventDefault();
@@ -21,4 +20,4 @@ jQuery(document).ready(function($) {
 	});
 	
 });
-</script>
+
