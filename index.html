@@ -1,11 +1,11 @@
 <!DOCTYPE html5>
 <html>
-
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script type="text/javascript" src="html5lightbox/jquery.js"></script>
+<script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
 <head> 
     <meta charset='utf-8'>
     <title>This is just a testsite</title>
     <meta name='description' content="writing my own html">
-    <link rel="stylesheet" href="main.css">
     </head>
 
 <body>
@@ -22,7 +22,7 @@
 	
     <ul> 
 	 <li>   
-        <a href="https://services-sandbox.sheerid.com/verify/59777630e4b08c728f37ae3f/?iframe=true" id='lightbox_trigger'>
+        <a href="https://services-sandbox.sheerid.com/verify/59777630e4b08c728f37ae3f/" class="html5lightbox" data-height="500">
 	    <img src='http://www.hrd4my.com.my/wp-content/uploads/2016/07/Verify-1.png' style="width:42px;height:42px;border0;"/>
 	</a>
 	    </li>
@@ -37,17 +37,16 @@
  </div>
      <iframe frameborder="1" width="420" height="345" src="https://verify-demo.sheerid.com/marcola-school-district/"></iframe>
     
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
     <script type="text/javascript">
     $(document).ready(function() {
-        $('#lightbox').hide();
-        $('#lightbox_trigger').show();
-        $('#lightbox_trigger').click(function() {
-            $('lightbox').show();
+        $("[data-fancybox]").fancybox({
+		// Options will go here
+	});
+       
 				
 	});
 	
-});
 </script>
     </body>
     
